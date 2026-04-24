@@ -1,0 +1,18 @@
+a. Mendeklarasikan variabel dan memanggilnya
+  #!/bin/bash
+  nama="Dwi"
+  umur=19
+  echo "halo, nama saya $nama dan saya berumur $umur tahun"
+
+b. Mengambil inputan dinamis
+  #!/bin/bash
+  echo "masukkan nama anda: "
+  read nama
+  echo "selamat datang $nama."
+
+c. Operasi matematika dengan variabel
+  #!/bin/bash
+  x=10
+  y=5
+  hasil=$(( x+y ))
+  echo "hasil penjumlahan $hasil"
