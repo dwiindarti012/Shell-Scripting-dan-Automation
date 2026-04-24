@@ -1,0 +1,19 @@
+a. If-Else
+  #!/bin/bash
+  angka=10
+  if [$angka -gt 5]; then
+  > echo "angka lebih besar dari 5"
+  > else
+  > echo "angka kurang dari atau sama dengan 5"
+  > fi
+
+b. If-Elif-Else
+  #!/bin/bash
+  nilai=80
+  if [$nilai -ge 90]; then
+  > echo "grade A"
+  > elif [$nilai -ge 75]; then
+  > echo "grade B"
+  > else
+  > echo "grade C"
+  fi
