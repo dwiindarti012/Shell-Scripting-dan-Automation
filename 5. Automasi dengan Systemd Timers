@@ -1,0 +1,6 @@
+a. membuat file layanan service
+b. edit isi file lalu simpan
+c. selanjutnya buat file timer untuk mengontrol kapan layanan service akan dijalankan
+d. edit isi file timer tersebut lalu simpan
+e. aktifkan sistem timer tersebut dengan "sudo systemctl enable --now log_time.timer"
+f. terakhir untuk menampilkan status timer yang sedang aktif dengan "systemctl list-timer --all"
