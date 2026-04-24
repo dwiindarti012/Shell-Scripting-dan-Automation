@@ -1,0 +1,15 @@
+a. For looping
+  #!/bin/bash
+  for angka in {1..5}
+  > do
+  > echo "angka saat ini: $angka"
+  > done
+
+b. While loop
+  #!/bin/bash
+  angka=1
+  while [$angka -le 5]
+  > do
+  > echo "angka saat ini: $angka"
+  > angka=$((angka + 1))
+  > done
