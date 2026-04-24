@@ -1,0 +1,6 @@
+a. untuk melihat semua log sistem dengan "journalctl --no-pager"
+b. untuk melihat filter log berdasarkan waktu "journalctl --since "30 minutes ago"
+c. untuk melihat log dari layanan tertentu, misalnya log dari layanan cron "journalctl -u cron --no-pager --since "10 minutes ago"
+d. untuk melihat log booting terakhir "journalctl -b -1"
+e. untuk menampilkan log secara Real-Time "journalctl -f"
+f. terakhir untuk menampilkan log kernel dengan "sudo journalctl -k"
