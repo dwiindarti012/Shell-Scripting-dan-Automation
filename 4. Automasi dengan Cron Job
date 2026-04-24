@@ -1,0 +1,9 @@
+a. membuat skrip "log_time.sh" untuk mencatat waktu eksekusi.
+b. edit skrip untuk waktu eksekusi, simpan lalu enter.
+c. beri izin eksekusi menggunakan "chmod +x ~/log-time.sh"
+d. memulai pengeditan dengan membuka "crontab -e"
+e. tambahkan "* * * * * ~/log_time.sh" dalam pengeditan skrip
+f. memriksa status aktif cron job dengan "crontab -l"
+g. lalu periksa isi file log yang berisi waktu tiap menit dengan "cat ~/log_time.txt "
+h. memeriksa cron job sedang berjalan agar isi file dapat di lihat dengan "sudo systemctl status cron", lalu masukkan password akun untuk menjalankannya
+i. Automasi dengan Cron Job berhasil dibuat.
